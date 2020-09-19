@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{031FCBEC-52EB-4B46-8AFA-63D5F1052B3D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kitabxana.UI</RootNamespace>
+    <AssemblyName>Kitabxana.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v20.1" />
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v20.1" />
+    <Reference Include="DevExpress.Data.v20.1" />
+    <Reference Include="DevExpress.Printing.v20.1.Core" />
+    <Reference Include="DevExpress.Utils.v20.1" />
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v20.1" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core" />
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.UI, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Wizard, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v20.1" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraWizard.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\FrmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\FrmBase.Designer.cs">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAnaSehife.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAnaSehife.Designer.cs">
+      <DependentUpon>FrmAnaSehife.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Istifadeci\FrmIstifadeci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Istifadeci\FrmIstifadeci.Designer.cs">
+      <DependentUpon>FrmIstifadeci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Istifadeci\FrmIstifadeciIsler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Istifadeci\FrmIstifadeciIsler.Designer.cs">
+      <DependentUpon>FrmIstifadeciIsler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Istifadeci\FrmIstifadeciSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Istifadeci\FrmIstifadeciSec.Designer.cs">
+      <DependentUpon>FrmIstifadeciSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitabHereket\FrmEnler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitabHereket\FrmEnler.Designer.cs">
+      <DependentUpon>FrmEnler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitabHereket\FrmKitabAlisVeris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitabHereket\FrmKitabAlisVeris.Designer.cs">
+      <DependentUpon>FrmKitabAlisVeris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitabHereket\FrmKitabAlisverisIsler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitabHereket\FrmKitabAlisverisIsler.Designer.cs">
+      <DependentUpon>FrmKitabAlisverisIsler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitabHereket\KitabHereket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitabHereket\KitabHereket.Designer.cs">
+      <DependentUpon>KitabHereket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitab\FrmKitab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitab\FrmKitab.Designer.cs">
+      <DependentUpon>FrmKitab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitab\FrmKitabIsler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitab\FrmKitabIsler.Designer.cs">
+      <DependentUpon>FrmKitabIsler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitab\FrmKitabSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitab\FrmKitabSec.Designer.cs">
+      <DependentUpon>FrmKitabSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muellif\FrmMuellifIsler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muellif\FrmMuellifIsler.Designer.cs">
+      <DependentUpon>FrmMuellifIsler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sinif\FrmSinif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sinif\FrmSinif.Designer.cs">
+      <DependentUpon>FrmSinif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sinif\FrmSinifIsler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sinif\FrmSinifIsler.Designer.cs">
+      <DependentUpon>FrmSinifIsler.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Base\FrmBase.resx">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAnaSehife.resx">
+      <DependentUpon>FrmAnaSehife.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Istifadeci\FrmIstifadeci.resx">
+      <DependentUpon>FrmIstifadeci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Istifadeci\FrmIstifadeciIsler.resx">
+      <DependentUpon>FrmIstifadeciIsler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Istifadeci\FrmIstifadeciSec.resx">
+      <DependentUpon>FrmIstifadeciSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitabHereket\FrmEnler.resx">
+      <DependentUpon>FrmEnler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitabHereket\FrmKitabAlisVeris.resx">
+      <DependentUpon>FrmKitabAlisVeris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitabHereket\FrmKitabAlisverisIsler.resx">
+      <DependentUpon>FrmKitabAlisverisIsler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitabHereket\KitabHereket.resx">
+      <DependentUpon>KitabHereket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitab\FrmKitab.resx">
+      <DependentUpon>FrmKitab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitab\FrmKitabIsler.resx">
+      <DependentUpon>FrmKitabIsler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitab\FrmKitabSec.resx">
+      <DependentUpon>FrmKitabSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muellif\FrmMuellifIsler.resx">
+      <DependentUpon>FrmMuellifIsler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sinif\FrmSinif.resx">
+      <DependentUpon>FrmSinif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sinif\FrmSinifIsler.resx">
+      <DependentUpon>FrmSinifIsler.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kitabxana.Business\Kitabxana.Business.csproj">
+      <Project>{77dc5892-25c8-46cf-8a6a-05d165c608d0}</Project>
+      <Name>Kitabxana.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kitabxana.DataAccess\Kitabxana.DataAccess.csproj">
+      <Project>{53a447e5-fb56-4d39-9c8b-b6eed523905c}</Project>
+      <Name>Kitabxana.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kitabxana.Entities\Kitabxana.Entities.csproj">
+      <Project>{5fc8063e-b356-43a6-b72e-3a78ed343aae}</Project>
+      <Name>Kitabxana.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

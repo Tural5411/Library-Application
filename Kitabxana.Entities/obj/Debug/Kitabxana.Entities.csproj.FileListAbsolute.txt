@@ -1,0 +1,12 @@
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\bin\Debug\Kitabxana.Entities.dll.config
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\bin\Debug\Kitabxana.Entities.dll
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\bin\Debug\Kitabxana.Entities.pdb
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\bin\Debug\EntityFramework.dll
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\bin\Debug\EntityFramework.xml
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\obj\Debug\Kitabxana.Entities.csprojAssemblyReference.cache
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\obj\Debug\Kitabxana.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\obj\Debug\Kitabxana.Entities.csproj.CopyComplete
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\obj\Debug\Kitabxana.Entities.dll
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.Entities\obj\Debug\Kitabxana.Entities.pdb

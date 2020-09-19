@@ -1,0 +1,15 @@
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\bin\Debug\Kitabxana.DataAccess.dll.config
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\bin\Debug\Kitabxana.DataAccess.dll
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\bin\Debug\Kitabxana.DataAccess.pdb
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\bin\Debug\Kitabxana.Entities.dll
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\bin\Debug\Kitabxana.Entities.pdb
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\bin\Debug\Kitabxana.Entities.dll.config
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\obj\Debug\Kitabxana.DataAccess.csprojAssemblyReference.cache
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\obj\Debug\Kitabxana.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\obj\Debug\Kitabxana.DataAccess.csproj.CopyComplete
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\obj\Debug\Kitabxana.DataAccess.dll
+C:\Users\Tural\source\repos\Kitabxana\Kitabxana.DataAccess\obj\Debug\Kitabxana.DataAccess.pdb
